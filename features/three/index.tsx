@@ -11,7 +11,9 @@ export const ThreeJS = () => {
 
   return (
     <>
-      <h1 style={{ position: 'absolute', top: 24, left: 24, color: 'white' }}>Three.js example</h1>
+      <h1 style={{ position: 'absolute', top: 24, left: 24, color: 'white' }}>
+        Three.js + React.js example
+      </h1>
       <canvas id="kek" ref={canvasRef}></canvas>
     </>
   );
